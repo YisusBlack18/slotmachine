@@ -26,7 +26,7 @@ Public Class sonido
     End Sub
 
     Private Function GetFile(ByVal id As Integer) As String
-        Dim path As String = System.IO.Directory.GetCurrentDirectory().Substring(0, System.IO.Directory.GetCurrentDirectory().Length - 22)
+        Dim path As String = System.IO.Directory.GetCurrentDirectory()
         Select Case id
             Case 1
                 path += "\Sonidos\LosAngelesIsBurning.mp3"

@@ -9,7 +9,7 @@ Public Class start
         TextBox1_Experimento.Text = "slotmachineExp"
         ComboBox1_condicion.Text = "1"
         TextBox3_Participante.Text = "1"
-        TextBox4_Ruta.Text = System.IO.Directory.GetCurrentDirectory().Substring(0, System.IO.Directory.GetCurrentDirectory().Length - 22)
+        TextBox4_Ruta.Text = System.IO.Directory.GetCurrentDirectory()
     End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Boton_iniciar.Click
         experimento = TextBox1_Experimento.Text

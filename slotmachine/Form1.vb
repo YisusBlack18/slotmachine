@@ -31,7 +31,7 @@
     Dim ensayos_premios As List(Of Integer)
     'Detectar presiones del mouse o de la barra de espacio
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim ruta As String = System.IO.Directory.GetCurrentDirectory().Substring(0, System.IO.Directory.GetCurrentDirectory().Length - 22)
+        Dim ruta As String = System.IO.Directory.GetCurrentDirectory()
         cherries = ruta & "\Imagenes\cherries.png"
         corona = ruta & "\Imagenes\corona.png"
         diamante = ruta & "\Imagenes\diamante.png"
